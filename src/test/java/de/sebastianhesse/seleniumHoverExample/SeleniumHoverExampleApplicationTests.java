@@ -32,7 +32,7 @@ public class SeleniumHoverExampleApplicationTests {
 
     @Before
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Software\\Tools\\ChromeDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
         driver = new ChromeDriver();
         driver.navigate().to("http://localhost:8080/index.html");
     }
