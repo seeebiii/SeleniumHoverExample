@@ -21,4 +21,4 @@ builder.moveToElement(driver.findElement(POPUP_LINK_SELECTOR))
        .perform();
 ```
 
-Please take a look at another example in ```SeleniumHoverExampleApplicationTests```.
+Please take a look at another example in [SeleniumHoverExampleApplicationTests](https://github.com/seeebiii/SeleniumHoverExample/blob/master/src/test/java/de/sebastianhesse/seleniumHoverExample/SeleniumHoverExampleApplicationTests.java).
